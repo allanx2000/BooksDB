@@ -1,0 +1,1 @@
+﻿INSERT INTO {0} VALUES(null,{1},'{2}','{3}','{4}')

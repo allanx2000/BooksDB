@@ -1,0 +1,5 @@
+﻿CREATE TABLE {0} (
+	SeriesID       integer NOT NULL PRIMARY KEY,
+	Rating		   int UNSIGNED NOT NULL,
+	FOREIGN KEY(SeriesID) REFERENCES {1}(ID)
+)
